@@ -5,30 +5,46 @@
 
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Will Craven</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
   </head>
 
-  <body>
-    <h1 class="text-6xl 
-      sm:text-8xl md:text-9xl 
-      font-extrabold 
-      text-center 
-      mx-auto 
-      my-10 
-      px-4 
-      py-6 
-      border-4 
-      border-dashed 
-      rounded-lg 
+  <body class="flex flex-col min-h-screen">
+    
+
+    
+    <main class="flex-grow"> 
+      <h1 class="text-6xl 
+        sm:text-8xl md:text-9xl 
+        font-extrabold 
+        text-center 
+        mx-10 
+        my-10 
+        px-4 
+        py-6 
+        border-4 
+        border-dashed 
+        rounded-lg 
       border-purple-500 
       text-pink-600 
-      font-mono">
-      Will Craven
-    </h1>
+        font-mono">
+        Will Craven
+      </h1>
 
-    <p>Suh dude</p>
+      <p>Suh dude</p>
+    </main>
+
+    <nav class="bg-gray-800 text-white fixed bottom-0 w-full">
+      <div class="container mx-auto px-4 py-3 flex justify-center space-x-8"> 
+        <a href="#" class="hover:text-gray-300">Home</a>
+        <a href="#" class="hover:text-gray-300">About</a>
+        <a href="#" class="hover:text-gray-300">Services</a>
+        <a href="#" class="hover:text-gray-300">Contact</a>   
+
+      </div>
+    </nav>
   </body>
 </html>
 <!--
